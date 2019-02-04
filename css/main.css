@@ -1,0 +1,96 @@
+
+
+@font-face{
+	font-family: 'Philosopher', sans-serif;
+}
+
+ @font-face{
+
+font-family: 'Manrope';
+
+src: url('../fonts/manrope/regular.otf');
+
+src: url('../fonts/manrope/regular.otf?iefix') format('otf'),
+
+url('../fonts/manrope/regular.ttf') format('truetype'),
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.popup{
+	background: url(../img/bq.jpg) no-repeat center / cover;
+	padding-top: 50px;
+	padding-bottom: 382px;
+}
+
+.container{
+	width: 90%;
+	margin: auto;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.close{
+	width: 32px;
+	cursor: pointer;
+}
+
+.close span{
+	height: 2px;
+	display: block;
+	margin-top: -2px;
+	background: #fff;
+	transform: matrix(0.7, 0.7, 0.7, -0.7, 0, 0);
+}
+
+.close span:last-child{
+	transform: matrix(0.7, -0.7, -0.7, -0.7, 0, 0);
+}
+
+.nav{
+	margin-top: 242px;
+}
+.navbar{
+	margin: 0;
+	padding: 0;
+	margin-top: 136px;
+	list-style-type: none;
+	display: flex;	
+	justify-content: space-between;
+}
+
+.navbar a{
+	font-family: Philosopher, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 45px;
+	color: #FFFFFF;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.navbar a:hover{
+	color: #e1def5;
+}
+
+.navbar span{
+	display: block;	
+	font-family: Manrope;
+	line-height: 28px;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+	color: #D1D1D1;
+}
